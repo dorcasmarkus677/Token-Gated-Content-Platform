@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/Token-Gated-Content-Platform.clar'
 clarity_version = 3
 epoch = 3.1
+
+[contracts.Content-Tipping-System]
+path = 'contracts/Content-Tipping-System.clar'
+clarity_version = 3
+epoch = 3.1
 [repl.analysis]
 passes = ['check_checker']
 
